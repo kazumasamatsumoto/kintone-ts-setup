@@ -1,0 +1,11 @@
+[package]
+name = "kintone-ts-setup"
+version = "0.1.0"
+edition = "2021"
+description = "Kintone TypeScript プロジェクトセットアップツール"
+
+[[bin]]
+name = "kintone-ts-setup"
+path = "src/main.rs"
+
+[dependencies]
